@@ -1,0 +1,97 @@
+SCR_ChimeraCharacter : "{A4D204488A4A5C43}Prefabs/Characters/7CAV_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  CharacterHandWeaponSlotComponent "{5C9CA35B6F6B604C}" {
+   WeaponType Rifle
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponType Rifle
+   WeaponTemplate "{9BA111B8875A1556}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_kac600.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponType RocketLauncher
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{FF333CDF80EAE252}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_base.et"
+    }
+    LoadoutSlotInfo Rig {
+     Prefab "{1300A5F6CA51B204}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman.et"
+     AreaType LoadoutVestArea "{654C2117FFD17240}" {
+     }
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{654B5C9E1C8A7D31}" {
+     PrefabsToSpawn {
+      "{7CEEC3FF35A201A2}Prefabs/Items/Core/Compass_Base.et" "{44FC3E59DFA001A4}Prefabs/Items/Core/ETool_base.et" "{7B6990100263E2B3}Prefabs/Items/Core/Map_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654B5C9FF8ADFDED}" {
+     PrefabsToSpawn {
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654C2117FFD1725A}" {
+     TargetStorage "Rig/Vest_PCGen_III_rifleman.et/tako1/Pouch_FILBE_doubleM4_1.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654C2117FFD172A7}" {
+     TargetStorage "Rig/Vest_PCGen_III_rifleman.et/tako2/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654C2117FFD172A0}" {
+     TargetStorage "Rig/Vest_PCGen_III_rifleman.et/Pouch1/Pouch_OpenTop_M27_1_pouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654C2117FFD172A1}" {
+     TargetStorage "Rig/Vest_PCGen_III_rifleman.et/camerleft/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654C2117FFD172A2}" {
+     TargetStorage "Rig/Vest_PCGen_III_rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654C2117FFD172AE}" {
+     TargetStorage "Rig/Vest_PCGen_III_rifleman.et/m67/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654C2117FFD172AF}" {
+     TargetStorage "Rig/Vest_PCGen_III_rifleman.et/radio/Pouch_152_Radio.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654C2117FFD172B4}" {
+     TargetStorage "Rig/Vest_PCGen_III_rifleman.et/m18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654C2117FFD172B7}" {
+     TargetStorage "Rig/Vest_PCGen_III_rifleman.et/util/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angleY -21.056
+}

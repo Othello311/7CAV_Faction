@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{4033BC77C1A5DF1A}Prefabs/Characters/7CAV_C_RiflemanAT.et" {
+ coords 107.785 1 100.987
+ angleY 0
+}
+SCR_ChimeraCharacter : "{4033BC77C1A5DF1B}Prefabs/Characters/7CAV_C_Rifleman.et" {
+ coords 110.039 1 101.292
+ angleY 0
+}
+SCR_ChimeraCharacter : "{A4D204488A4A5C43}Prefabs/Characters/7CAV_Base.et" {
+ coords 112.317 1 101.84
+}
