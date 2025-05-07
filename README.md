@@ -1,2 +1,10 @@
 # 7CAV_Faction
-The start of 7Cav factions for use in Arma Reforger
+Dependancies:
+-Ace Medical
+-RHS Status Quo
+-M249 w/rails
+-M110 DMR mod
+-RIS lasers
+-Suppressors (bacon)
+-M4 Maaws
+-Wirecutters 2.0
