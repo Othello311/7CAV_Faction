@@ -1,12 +1,28 @@
 SCR_ChimeraCharacter : "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Campaign_USSR_Base.et" {
  ID "520EC961A090BE1E"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{CCB365E9B5737ECD}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_black.et"
+      }
+     }
+    }
+   }
+  }
   FactionAffiliationComponent "{520EC9618276DF23}" {
    "faction affiliation" "US"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "RHS_AFRF"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{654E1154D0DE7C8F}" {
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -21,7 +37,7 @@ SCR_ChimeraCharacter : "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Camp
      Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+     Prefab "{512DE5A159E82012}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MC.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
@@ -39,7 +55,7 @@ SCR_ChimeraCharacter : "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Camp
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{654B5C9E1C8A7D31}" {
-     TargetStorage "Pants/crye_pants_mc.et"
+     TargetStorage "Pants/BDU_PANTS_MC.et"
      PrefabsToSpawn {
       "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_US.et"
      }

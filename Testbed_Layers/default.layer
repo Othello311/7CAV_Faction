@@ -1,11 +1,18 @@
 SCR_ChimeraCharacter : "{4033BC77C1A5DF1A}Prefabs/Characters/7CAV_C_RiflemanAT.et" {
- coords 107.785 1 100.987
+ coords 113.057 1 100.072
  angleY 0
 }
 SCR_ChimeraCharacter : "{4033BC77C1A5DF1B}Prefabs/Characters/7CAV_C_Rifleman.et" {
- coords 110.039 1 101.292
+ coords 115.295 1 99.867
  angleY 0
+ angleZ 0
 }
-SCR_ChimeraCharacter : "{A4D204488A4A5C43}Prefabs/Characters/7CAV_Base.et" {
- coords 112.317 1 101.84
+SCR_ChimeraCharacter : "{AF2795732F9CA78D}Prefabs/Characters/7CAV_C_AR.et" {
+ coords 111.006 1 100.112
+}
+SCR_ChimeraCharacter : "{EC07E80827B9C5AE}Prefabs/Characters/7CAV_C_GRN.et" {
+ coords 108.568 1 100.21
+}
+SCR_ChimeraCharacter : "{FD304B6941D3B36E}Prefabs/Characters/7CAV_C_MG.et" {
+ coords 105.866 1 100.408
 }

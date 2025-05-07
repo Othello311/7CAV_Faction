@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{AF2795732F9CA78D}Prefabs/Characters/7CAV_C_AR.et" {
+ ID "520EC961A090BE1E"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BA87F78D0E7E3A91}Prefabs/Weapons/MG_M240_Light_MDO.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{654E14DFCA60FDBC}" {
+     PrefabsToSpawn {
+      "{AD8AB93729348C3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654E14D8882B798D}" {
+     PrefabsToSpawn {
+      "{AD8AB93729348C3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654E14DA06BBF349}" {
+     PrefabsToSpawn {
+      "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654E14DA056DC002}" {
+     PrefabsToSpawn {
+      "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}
