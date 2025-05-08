@@ -2,6 +2,7 @@ SCR_ChimeraCharacter : "{A4D204488A4A5C43}Prefabs/Characters/7CAV_Base.et" {
  ID "520EC961A090BE1E"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponType Rifle
    WeaponTemplate "{040637109D616F8B}Prefabs/Weapons/Rifle_M4A1_M203.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

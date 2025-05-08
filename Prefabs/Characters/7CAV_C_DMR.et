@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{A4D204488A4A5C43}Prefabs/Characters/7CAV_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{654F5A129F56F1C8}" {
+   }
+   WeaponType Rifle
+   WeaponTemplate "{2535B4B691E676DB}Prefabs/Weapons/Rifles/BaconM110/Rifle_BaconM110.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponType Handgun
+   WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{8CCD7C0728F3BD3D}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_nobelt_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{654F5A1723DE611C}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw2/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{8776E8E181E6F90E}Prefabs/Weapons/Magazines/Magazine_762x51_BaconM110.et" "{8776E8E181E6F90E}Prefabs/Weapons/Magazines/Magazine_762x51_BaconM110.et" "{8776E8E181E6F90E}Prefabs/Weapons/Magazines/Magazine_762x51_BaconM110.et" "{8776E8E181E6F90E}Prefabs/Weapons/Magazines/Magazine_762x51_BaconM110.et" "{8776E8E181E6F90E}Prefabs/Weapons/Magazines/Magazine_762x51_BaconM110.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654F5A14BF3F6EFC}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et" "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654F5A14A23BADD5}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/admin/Pouch_Admin.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{654F5A1E884328EE}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/radio/Pouch_152_Radio.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angleY -21.5
+}

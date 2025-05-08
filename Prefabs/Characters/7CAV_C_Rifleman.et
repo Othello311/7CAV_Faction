@@ -27,7 +27,7 @@ SCR_ChimeraCharacter : "{A4D204488A4A5C43}Prefabs/Characters/7CAV_Base.et" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{654B5C9E1C8A7D31}" {
      PrefabsToSpawn {
-      "{7CEEC3FF35A201A2}Prefabs/Items/Core/Compass_Base.et" "{44FC3E59DFA001A4}Prefabs/Items/Core/ETool_base.et" "{7B6990100263E2B3}Prefabs/Items/Core/Map_Base.et"
+      "{7CEEC3FF35A201A2}Prefabs/Items/Core/Compass_Base.et" "{44FC3E59DFA001A4}Prefabs/Items/Core/ETool_base.et" "{7B6990100263E2B3}Prefabs/Items/Core/Map_Base.et" "{8554ED3F088BADA6}Prefabs/Items/Core/Wirecutters/wirecutters.et"
      }
     }
     ItemsInitConfigurationItem "{654B5C9FF8ADFDED}" {
