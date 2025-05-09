@@ -34,7 +34,6 @@ SCR_ChimeraCharacter : "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Camp
      Prefab "{7BA7FF3E9F68960E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{512DE5A159E82012}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MC.et"
@@ -44,11 +43,6 @@ SCR_ChimeraCharacter : "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Camp
     }
     LoadoutSlotInfo HandWear {
      Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
-    }
-    LoadoutSlotInfo Comms {
-     Prefab "{EB916F0BF524EF25}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_black.et"
-     AreaType LoadoutCoverArea "{654B78FFAF734D11}" {
-     }
     }
    }
   }
@@ -66,13 +60,27 @@ SCR_ChimeraCharacter : "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Camp
       "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
      }
     }
-    ItemsInitConfigurationItem "{654C3668BB5EF688}" {
-     TargetStorage "ArmoredVest/Vest_PCGen_III.et"
+    ItemsInitConfigurationItem "{6552D10F3FF993AD}" {
+     TargetStorage "Pants/BDU_PANTS_MC.et"
      PrefabsToSpawn {
-      "{1B4129A0C0C752A3}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Back.et" "{88E31AB238FFCB0A}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Front.et"
+      "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6552D10F3FBC033F}" {
+     TargetStorage "Pants/BDU_PANTS_MC.et"
+     PrefabsToSpawn {
+      "{1F49EEF2B889F0C1}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6552D10F3E7C1AD3}" {
+     TargetStorage "Pants/BDU_PANTS_MC.et"
+     PrefabsToSpawn {
+      "{D4ABE8F396146587}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_clr.et"
      }
     }
    }
   }
  }
+ coords 0 0.374 0
+ angleY -79
 }

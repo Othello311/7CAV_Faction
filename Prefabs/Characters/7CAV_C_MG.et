@@ -4,6 +4,13 @@ SCR_ChimeraCharacter : "{AF2795732F9CA78D}Prefabs/Characters/7CAV_C_AR.et" {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{BA87F78D0E7E3A91}Prefabs/Weapons/MG_M240_Light_MDO.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{654E14DFCA60FDBC}" {

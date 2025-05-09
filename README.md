@@ -8,3 +8,4 @@ Dependancies:
 -Suppressors (bacon)
 -M4 Maaws
 -Wirecutters 2.0
+-Laser Rangefinder

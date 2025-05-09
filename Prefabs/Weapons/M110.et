@@ -98,16 +98,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      }
      ShowInInspection 1
     }
-    AttachmentSlotComponent "{654E14D3EC31BC6E}" {
-     AttachmentSlot InventoryStorageSlot Attachment {
-      PivotID "slot_risattachment_top"
-      Angles 0 0 0
-      InspectionWidgetOffset 0 0.196 0.3898
-     }
-     AttachmentType AttachmentRIS1913Short "{654E14D3EC31BC6F}" {
-     }
-     ShowInInspection 1
-    }
     AttachmentSlotComponent "{654E14D3EC31BC68}" {
      AttachmentSlot InventoryStorageSlot Attachment {
       PivotID "slot_risattachment_right"
@@ -119,13 +109,23 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      }
      ShowInInspection 1
     }
+    AttachmentSlotComponent "{654E14D3EC31BC6E}" {
+     AttachmentSlot InventoryStorageSlot Attachment {
+      PivotID "slot_risattachment_top"
+      Angles 0 0 0
+      InspectionWidgetOffset 0 0.196 0.3898
+     }
+     AttachmentType AttachmentRIS1913Short "{654E14D3EC31BC6F}" {
+     }
+     ShowInInspection 1
+    }
     AttachmentSlotComponent "{654E14D3EC31BC73}" {
      AttachmentSlot InventoryStorageSlot Optics {
       PivotID "slot_optics"
       Offset 0 0 -0.016
       ChildPivotID "snap_weapon"
       Enabled 1
-      Prefab "{25E734CCFB586A0F}Prefabs/Weapons/Attachments/BaconOptics/Bacon_L3.5x10_Scope_M110.et"
+      Prefab "{ACC9B43941CE5EA6}Prefabs/Weapons/Attachments/Optics/Optic_leupoldMK4/Optic_leupoldMK4.et"
       InspectionWidgetOffset 0 0.1816 0.0311
      }
      AttachmentType AttachmentOpticsRIS1913 "{654E14D3EC31BC7E}" {
