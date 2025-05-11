@@ -1,0 +1,7 @@
+MatPBRBasic : "{6B062ACF60D1D2A0}Assets/Characters/Patches/data/patch_us_flag.emat" {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{FC37C61F95094E87}Assets/Characters/Patches/data/MisfitPatchBLK.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{BF20301E17ACA4A1}Assets/Characters/Patches/data/rhs_patch_us_flag_01_NMO.edds"
+}
