@@ -1,6 +1,7 @@
 # 7CAV_Faction
 Dependancies:
 -Ace Medical
+-Ace Core
 -RHS Status Quo
 -M249 w/rails
 -M110 DMR mod
