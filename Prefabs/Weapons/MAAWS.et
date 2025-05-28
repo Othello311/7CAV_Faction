@@ -102,7 +102,7 @@ GenericEntity : "{9064206CBDE9CD95}Prefabs/Weapons/Core/Launcher_Base.et" {
    components {
     AttachmentSlotComponent "{B502E4DC8A9E835E}" {
      AttachmentSlot InventoryStorageSlot optics {
-      PivotID "snap_optics"
+      PivotID "w_sight"
       Angles 0 0 0
       ChildPivotID "snap_weapon"
       Prefab "{A0DB7506D54D5E6D}Prefabs/Attachments/AFCS13RE/MAAWS_AFCS_HEAT551.et"
@@ -294,5 +294,8 @@ GenericEntity : "{9064206CBDE9CD95}Prefabs/Weapons/Core/Launcher_Base.et" {
    }
   }
  }
- coords -0.265 0.186 0
+ coords -0.351 0.288 0.305
+ angleX 60.164
+ angleY 71.655
+ angleZ 31.659
 }
