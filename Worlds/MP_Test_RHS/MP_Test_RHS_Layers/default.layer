@@ -72,6 +72,10 @@ SCR_ChimeraCharacter : "{C03E0576CA7BB5E1}Prefabs/Characters/7CAV_C_DMR.et" {
  angleY 0
  angleZ 0
 }
+SCR_ChimeraCharacter : "{DC13D85BAA888134}Prefabs/Characters/7CAV_A_Base.et" {
+ coords 142.225 1 105.225
+ angleY 0
+}
 SCR_ChimeraCharacter : "{EC07E80827B9C5AE}Prefabs/Characters/7CAV_C_GRN.et" {
  coords 135.743 1 104.48
  angleY 0
