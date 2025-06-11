@@ -1,0 +1,60 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{658C1E13984F38D2}" {
+   m_sLoadoutName "Rifleman"
+   m_sLoadoutResource "{4033BC77C1A5DF1A}Prefabs/Characters/7CAV_C_Rifleman.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{658C1E13984F3F20}" {
+   m_sLoadoutName "Rifleman LAT"
+   m_sLoadoutResource "{04A39C1C1762A0F3}Prefabs/Characters/7CAV_C_RiflemanLAT.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{658C1E13984F3F2C}" {
+   m_sLoadoutName "SAW Gunner"
+   m_sLoadoutResource "{AF2795732F9CA78D}Prefabs/Characters/7CAV_C_AR.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_PlayerArsenalLoadout "{658C1E13984F3F2E}" {
+   m_sLoadoutName "Grenadier"
+   m_sLoadoutResource "{EC07E80827B9C5AE}Prefabs/Characters/7CAV_C_GRN.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_PlayerArsenalLoadout "{658C1E13984F3F28}" {
+   m_sLoadoutName "DMR"
+   m_sLoadoutResource "{C03E0576CA7BB5E1}Prefabs/Characters/7CAV_C_DMR.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_PlayerArsenalLoadout "{658C1E13984F3F29}" {
+   m_sLoadoutName "Machine Gunner"
+   m_sLoadoutResource "{FD304B6941D3B36E}Prefabs/Characters/7CAV_C_MG.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{658C1E13984F3F2A}" {
+   m_sLoadoutName "MG Asst"
+   m_sLoadoutResource "{1CAB6EDA659B1808}Prefabs/Characters/7CAV_C_AG.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{658C1E13984F3F34}" {
+   m_sLoadoutName "MAAWS Gunner"
+   m_sLoadoutResource "{67AE8A85D57BC81C}Prefabs/Characters/7CAV_C_MAAWS.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{658C1E13984F3F35}" {
+   m_sLoadoutName "MAAWS Asst"
+   m_sLoadoutResource "{940B4189FFE3E83E}Prefabs/Characters/7CAV_C_MAAWS_AG.et"
+   m_sAffiliatedFaction "CIV"
+  }
+  SCR_FactionPlayerLoadout "{658C1E13984F3F37}" {
+   m_sLoadoutName "Pilot"
+   m_sLoadoutResource "{DC13D85BAA888134}Prefabs/Characters/7CAV_A_Base.et"
+   m_sAffiliatedFaction "CIV"
+  }
+  SCR_PlayerArsenalLoadout "{658C1E13984F3F31}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{99F600AD4C6BA6A4}Prefabs/Characters/Factions/CIV/Character_CIV_base.et"
+   m_sAffiliatedFaction "CIV"
+  }
+ }
+}
