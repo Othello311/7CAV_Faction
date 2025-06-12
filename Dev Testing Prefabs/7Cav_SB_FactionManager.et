@@ -238,6 +238,30 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
           }
          }
         }
+        SCR_EntityCatalogInventoryItem "{659821839F700327}" {
+         m_sEntityPrefab "{F30BD9B5D782E1DE}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M715.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D848E8A152}" {
+           m_eItemType RIFLE
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6598218391FAA12B}" {
+         m_sEntityPrefab "{9F5FED556B466EF0}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M716.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D848E8A152}" {
+           m_eItemType RIFLE
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982183685A8798}" {
+         m_sEntityPrefab "{51A3B99DCE59C8E1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_M585.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D848E8A152}" {
+           m_eItemType RIFLE
+          }
+         }
+        }
         SCR_EntityCatalogInventoryItem "{5CB89956A0D52E9A}" {
          m_aEntityDataList {
           SCR_ArsenalItem "{5CB89956A9C764AE}" {
@@ -266,7 +290,11 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
           }
          }
         }
+        SCR_EntityCatalogInventoryItem "{65982182CAE3C39F}" {
+         m_sEntityPrefab "{D6D327EED460CFF3}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M995_4AP_1Tracer.et"
+        }
         SCR_EntityCatalogInventoryItem "{5C62F7D816ADEECB}" {
+         m_sEntityPrefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D815E4A238}" {
         }
@@ -473,6 +501,69 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
           }
          }
         }
+        SCR_EntityCatalogInventoryItem "{659821833FC0F845}" {
+         m_sEntityPrefab "{7354BA6B87FF48EA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_Base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821833FC0F95E}" {
+           m_eItemMode AMMUNITION
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821833548F1C8}" {
+         m_sEntityPrefab "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821833548F60B}" {
+           m_eItemMode AMMUNITION
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6598218301862A7E}" {
+         m_sEntityPrefab "{A540E8600876C2A2}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821830186228C}" {
+           m_eItemMode AMMUNITION
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6598218313A17522}" {
+         m_sEntityPrefab "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218313A16A3E}" {
+           m_eItemMode AMMUNITION
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982182973E4CA9}" {
+         m_sEntityPrefab "{EA5391BBD8D5BAC6}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982182973E4DDF}" {
+           m_eItemMode AMMUNITION
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821826BD7D61F}" {
+         m_sEntityPrefab "{A3BA4C11E2DA07D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1_Last5Tracer.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821826BD7D73A}" {
+           m_eItemMode AMMUNITION
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6598218263955E70}" {
+         m_sEntityPrefab "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218263955FE6}" {
+           m_eItemMode AMMUNITION
+           m_iSupplyCost 5
+          }
+         }
+        }
         SCR_EntityCatalogInventoryItem "{657D02E99F5C317A}" {
          m_sEntityPrefab "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
          m_aEntityDataList {
@@ -604,8 +695,10 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
          }
         }
         SCR_EntityCatalogInventoryItem "{5D42FA68380042F6}" {
+         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5D42FA683F6106ED}" {
+         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5D42FA683EC02BEF}" {
          m_bEnabled 0
@@ -615,12 +708,16 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
          }
         }
         SCR_EntityCatalogInventoryItem "{5D42FA681DEA3A37}" {
+         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5D42FA681D4EA6D0}" {
+         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5D42FA681CABA154}" {
+         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5D42FA6802D0B4E0}" {
+         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5D5740B4F080628F}" {
          m_bEnabled 0
@@ -710,6 +807,196 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
           }
          }
         }
+        SCR_EntityCatalogInventoryItem "{6598218158FA5E48}" {
+         m_sEntityPrefab "{158AF827F9114A36}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-3.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218158FA5C19}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6598218134B0D7DC}" {
+         m_sEntityPrefab "{D6F3034AA0F024B5}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-3_tan.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218134B0D4C9}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6598218039492C54}" {
+         m_sEntityPrefab "{6B164FDCD50633AC}Prefabs/Weapons/Attachments/Optics/lmt_l8a/lmt_l8a_rear.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982180394922CF}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6598218008075DA2}" {
+         m_sEntityPrefab "{1CB9CFD1DAD5478B}Prefabs/Weapons/Attachments/Optics/matech/matech.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821800807528F}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821801C353907}" {
+         m_sEntityPrefab "{677E8A0792696783}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_rear.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821801C353ED7}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982183EFE20FDB}" {
+         m_sEntityPrefab "{380776419F35491E}Prefabs/Weapons/Attachments/Optics/vc18dsco/optic_vc18dsco_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982183EFE20DD7}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982183D1433173}" {
+         m_sEntityPrefab "{380776419F35491E}Prefabs/Weapons/Attachments/Optics/vc18dsco/optic_vc18dsco_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982183D14337E1}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821810F763CAE}" {
+         m_sEntityPrefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821810F76321F}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982180F9F57A5A}" {
+         m_sEntityPrefab "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982180F9F57B0C}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982180F1C628A2}" {
+         m_sEntityPrefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982180F1C629EE}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982180C6E86E53}" {
+         m_sEntityPrefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982180C6E86F0A}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982180D8DB924A}" {
+         m_sEntityPrefab "{7CF8FFEA659461C1}Prefabs/Weapons/Attachments/Misc/manta_railcover/manta_6ingrip.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982180D8DB9376}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982180B793A724}" {
+         m_sEntityPrefab "{2E6DA66166088B60}Prefabs/Weapons/Attachments/Misc/manta_railcover/manta_6ingrip_blk.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982180B793A5A1}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821808CF4BB8B}" {
+         m_sEntityPrefab "{77A74F65BAEC73E2}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit_m4a1_ras.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821808CF4B9FC}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821809D3EC874}" {
+         m_sEntityPrefab "{C53550E0488BC2AF}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit_m4a1_ras_tan.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821809D3EC94A}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982180959582E7}" {
+         m_sEntityPrefab "{A62F1332EFC35258}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_grip.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218095958388}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821806C83C235}" {
+         m_sEntityPrefab "{1D1792BE5A3BB831}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_grip_tan.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821806C83C3BF}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821807A602550}" {
+         m_sEntityPrefab "{D9887A041DA4D6C9}Prefabs/Weapons/Attachments/Lights/Light_su233_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821807A601B88}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982180417FC69C}" {
+         m_sEntityPrefab "{0F46DA93CB81F141}Prefabs/Weapons/Attachments/Grips/Grip_KAC_Vertical/RHS_KacVertical_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982180417FC7FA}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 20
+          }
+         }
+        }
         SCR_EntityCatalogInventoryItem "{657D02E602321CCC}" {
          m_sEntityPrefab "{4268B2077766E8C7}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_high.et"
          m_aEntityDataList {
@@ -722,6 +1009,7 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
         }
         SCR_EntityCatalogInventoryItem "{657D02E603655C86}" {
          m_sEntityPrefab "{B0D87E5898D91004}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_low.et"
+         m_bEnabled 0
          m_aEntityDataList {
           SCR_ArsenalItem "{657D02E603655CFB}" {
            m_eItemType WEAPON_ATTACHMENT
@@ -732,6 +1020,7 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
         }
         SCR_EntityCatalogInventoryItem "{657D02E7B2069B7F}" {
          m_sEntityPrefab "{1DAEA9434BBB003E}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_low.et"
+         m_bEnabled 0
          m_aEntityDataList {
           SCR_ArsenalItem "{657D02E7B2069BB8}" {
            m_eItemType WEAPON_ATTACHMENT
@@ -873,6 +1162,70 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
          m_sEntityPrefab "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
          m_aEntityDataList {
           SCR_ArsenalItem "{657D02E793B25108}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{659821877F8DDAA0}" {
+         m_sEntityPrefab "{4C5535098D6DAC7C}Prefabs/Items/Equipment/Nightvision/Vlite/vlite.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821877F8DDA67}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6598218744A8DAAA}" {
+         m_sEntityPrefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218744A8D96E}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65982187329A43E5}" {
+         m_sEntityPrefab "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982187329A45D8}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{659821871E92AD3B}" {
+         m_sEntityPrefab "{275F298DE10E7A15}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_TAN_MC.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821871E92A3FD}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65982186ECBC4483}" {
+         m_sEntityPrefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982186ECBC4508}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65982186FD8945FD}" {
+         m_sEntityPrefab "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982186FD893AB9}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65982186CA77DD0E}" {
+         m_sEntityPrefab "{755CE97202EF4D24}Prefabs/Items/Equipment/Accessories/L4G24_EmptyNVGMount/L4G24_EmptyMount_Tan.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982186CA77CE42}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65982186ACDC9CF9}" {
+         m_sEntityPrefab "{B355913289C6C38D}Prefabs/Items/Equipment/Accessories/L4G24_EmptyNVGMount/L4G24_EmptyMount_Base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982186ACDC9D3A}" {
            m_eItemType EQUIPMENT
           }
          }
@@ -1078,6 +1431,166 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
           }
          }
         }
+        SCR_EntityCatalogInventoryItem "{659821858D0339AD}" {
+         m_sEntityPrefab "{6BEC572D4E71CBED}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_MC.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821858D03227E}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821852828139B}" {
+         m_sEntityPrefab "{1D0E3F9F2E1F6D21}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_MC.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218528281083}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6598218545B819FE}" {
+         m_sEntityPrefab "{B7B6E9431730E4FF}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_Coy.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218545B81CE2}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821850C038F29}" {
+         m_sEntityPrefab "{8EA3CB650C1DF461}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_Coy.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821850C038D96}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982184464B502C}" {
+         m_sEntityPrefab "{F0FA0DF11A3E941B}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_nobelt_Coy.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982184464B56F2}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821845342A1DC}" {
+         m_sEntityPrefab "{C5300A62C49815FF}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821845342A7BC}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821843DD58A42}" {
+         m_sEntityPrefab "{A04314012EE0F737}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy2.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821843DD58BCA}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821843972811E}" {
+         m_sEntityPrefab "{45DF58F82205605C}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy3.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821843972867F}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821843405C154}" {
+         m_sEntityPrefab "{A1F502A90AD57908}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x6.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821843405C4E0}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821840D98347A}" {
+         m_sEntityPrefab "{1995D49E1F650C7C}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x6_2.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821840D98352C}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821840794550B}" {
+         m_sEntityPrefab "{FC09986713809B17}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x6_3.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218407944A25}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6598218402A95F55}" {
+         m_sEntityPrefab "{3E010420ECE9FC0D}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x9.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6598218402A95DAF}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982187EDF41575}" {
+         m_sEntityPrefab "{7E2DB938F7348CDC}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x9_2.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982187EDF40BFF}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982187EA428D40}" {
+         m_sEntityPrefab "{9BB1F5C1FBD11BB7}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x9_3.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982187EA4283C7}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982187E389ED99}" {
+         m_sEntityPrefab "{6AB41609027AA0FB}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_CoyMG.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982187E389ED74}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982187FE47E109}" {
+         m_sEntityPrefab "{90D8739288294234}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_radio_Coy_VLite.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982187FE47E6CC}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982187F13E319F}" {
+         m_sEntityPrefab "{50F366D098451356}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_shaw_Coy.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982187F13E2904}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65982184D22B4821}" {
+         m_sEntityPrefab "{6AACC58D09743363}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_6x6_MC.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65982184D22B49E8}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821848BC3103B}" {
+         m_sEntityPrefab "{B5FEEF292633187B}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821848BC316B7}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821849C304370}" {
+         m_sEntityPrefab "{86503C80B70FE586}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC_6x9.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{659821849C3041F7}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
        }
       }
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA1A6D59}" {
@@ -1263,6 +1776,14 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
          }
         }
         SCR_EntityCatalogInventoryItem "{6112B109A79C0955}" {
+         m_bEnabled 0
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6112B10995D4F9AB}" {
+           m_eRequiredRank PRIVATE
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{659821864135061B}" {
          m_bEnabled 0
          m_aEntityDataList {
           SCR_ArsenalItem "{6112B10995D4F9AB}" {
